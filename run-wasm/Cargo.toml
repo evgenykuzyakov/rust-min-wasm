@@ -1,0 +1,8 @@
+[package]
+name = "run-wasm"
+version = "0.1.0"
+authors = ["Evgeny Kuzyakov <h3r0k1ll3r@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+wasmi = { version = "0.4.1" }

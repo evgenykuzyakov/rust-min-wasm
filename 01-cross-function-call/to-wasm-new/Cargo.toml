@@ -1,0 +1,12 @@
+[package]
+name = "to-wasm-new"
+version = "0.1.0"
+authors = ["Evgeny Kuzyakov <h3r0k1ll3r@gmail.com>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+
+[profile.release]
+panic = "abort"
